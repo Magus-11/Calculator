@@ -1,0 +1,129 @@
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98.6vw;
+    height: 96.6vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1280px;
+    height: 561px;
+    background-image: url('img/darl.jpg');
+}
+
+.box {
+    position: relative;
+    left: 34px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 329px;
+    height: 445px;
+    border: 3px solid rgb(14, 15, 14);
+    border-radius: 8px;
+    background-color: rgb(46, 46, 46);
+}
+
+.buttons {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 320px;
+    height: 324px;
+    background-color: rgb(184, 184, 184);
+    margin: 2px 5px;
+}
+
+.display {
+    border: 1px solid rgb(20, 20, 20);
+    display: flex;
+    justify-content: end;
+    border-radius: 5px;
+    align-items: flex-end;
+    color: antiquewhite;
+    width: 319px;
+    height: 123px;
+    background: black;
+    margin: 5px;
+    font-family: Orbitron;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 322px;
+}
+
+.btn button {
+    margin: 6px 11px;
+    width: 70px;
+    height: 50px;
+    border-radius: 20%;
+    /* border: 2px solid rgb(228, 228, 228); */
+    background-color: rgb(209, 208, 208);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#store {
+    position: fixed;
+    z-index: 1;
+    bottom: 504px;
+    right: 350px;
+    /* border: 2px solid red; */
+}
+
+/* border: 1px s
+/* .btn button:hover{border: 1px solid rgb(53, 53, 53);} */
+.hide {
+    visibility: hidden;
+}
+
+#spl1 {
+    background: rgb(31, 121, 31);
+}
+
+#spl2 {
+    background: rgb(255, 136, 0);
+}
+
+#spl3 {
+    background: rgb(255, 0, 242);
+}
+
+#spl4 {
+    background: rgb(45, 94, 255);
+}
+
+#spl5 {
+    background: rgb(140, 0, 255);
+    color: white;
+}
+
+.btn .hh {
+    background-color: rgb(144, 144, 144);
+}
+
+#screen {
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    font-size: 35px;
+}
+
+div img {
+    position: relative;
+    width: 634px;
+}
